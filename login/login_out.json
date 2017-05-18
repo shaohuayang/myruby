@@ -1,0 +1,258 @@
+[
+  {
+    "uri": "features/login.feature",
+    "id": "user-login",
+    "keyword": "Feature",
+    "name": "user login",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "user-login;login-with-right-username-and-password;;2",
+        "keyword": "Scenario Outline",
+        "name": "login with right username and password",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i user chrome open login page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121299
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "i set userName with right userName",
+            "line": 14,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18972
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i set password with right password",
+            "line": 14,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10575
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i click the login button",
+            "line": 14,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9019
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i see login success",
+            "line": 14,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8709
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-login;login-with-right-username-and-password;;3",
+        "keyword": "Scenario Outline",
+        "name": "login with right username and password",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i user firefox open login page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52873
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "i set userName with right userName",
+            "line": 15,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12441
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i set password with right password",
+            "line": 15,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8708
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i click the login button",
+            "line": 15,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8087
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i see login success",
+            "line": 15,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7465
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-login;login-with-right-username-and-password;;4",
+        "keyword": "Scenario Outline",
+        "name": "login with right username and password",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "i user ie open login page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51319
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "i set userName with right userName",
+            "line": 16,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11508
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i set password with right password",
+            "line": 16,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8398
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "i click the login button",
+            "line": 16,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7776
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "i see login success",
+            "line": 16,
+            "output": [
+              "aaa"
+            ],
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8708
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
